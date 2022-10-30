@@ -1,6 +1,6 @@
 import numpy as np
 
-np.random.seed(43)
+np.random.seed(53)
 
 class Kmeans:
     
