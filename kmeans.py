@@ -37,6 +37,16 @@ class Kmeans:
 
         # return cluster labels
 
+    def _create_clusters(self, centroids):
+        _clusters = [[] for _ in range(self.K)]
+
+        for indx, sample in enumerate(self.data):
+            cendroid_indx = self._closest_centroid()
+            pass
+
+    def _closest_centroid(self, point, centroids):
+        pass
+
 
 if __name__ == '__main__':
     print("Hello")
