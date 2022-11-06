@@ -1,12 +1,6 @@
-import enum
-from json.tool import main
-from unicodedata import name
 import numpy as np
 
 np.random.seed(78)
-
-
-
 
 class Kmeans:
     
@@ -80,4 +74,4 @@ class Kmeans:
         return np.sqrt(np.sum((p1-p2))**2)
 
 if __name__ == '__main__':
-    print("Hello")
+    print("This is my custom kmeans module")
